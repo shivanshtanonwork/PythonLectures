@@ -11,3 +11,7 @@ isPrime = True
 # Data Types in python
 print(type(isPrime))
 print(type(name),type(age),type(PI))
+
+# Style Guide snake_case - prefered in python
+tot_price = 2000
+print(tot_price)
