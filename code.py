@@ -1,5 +1,7 @@
 name = "Shivansh Tandon"
 age = 26
+PI = 3.14
+isPrime = True
 
-print(name,age)
-print(name,age-1)
+print(type(isPrime))
+print(type(name),type(age),type(PI))
