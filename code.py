@@ -1,8 +1,12 @@
-#Assignment operators
-a = 10
-print(a)
-b = 5
+# logical operators
+var = False
 
-a+=1 # a = a + 1
+print(not var)
 
-print(a)
+print((5>3)and(8<3))
+print((5>3)or(8<3))
+
+x=3
+
+x+=5
+print(x)
