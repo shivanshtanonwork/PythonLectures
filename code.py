@@ -1,8 +1,8 @@
-#Relational operators
+#Assignment operators
 a = 10
+print(a)
 b = 5
 
-print(a>b)
-print(a<b)
-print(a==b)
-print(a!=b)
+a+=1 # a = a + 1
+
+print(a)
