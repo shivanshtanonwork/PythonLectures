@@ -1,17 +1,21 @@
-#Type Conversion and Casting
+#Taking User Input
 
-a=10
-b=5
+a = input("Enter a value of a: ")
+print(a)
 
-print(type(a/5))
-ans = print(int(a/5))
-print(type(ans))
+user_name = input("Enter your name : ")
+print("Welcome",user_name)
 
-val = int("123")
-print(type(val))
+#Sum of 2 nums
 
-val = bool(10)
-print(val,type(val)) #True
+x = input("enter x : ")
+y = input("enter y : ")
 
-val = bool(0)
-print(val,type(val)) #False
+sum = x + y
+print(sum)
+
+x = int(input("enter x : "))
+y = int(input("enter y : "))
+
+sum = x + y 
+print(sum)
