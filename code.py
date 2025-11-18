@@ -1,12 +1,17 @@
-# logical operators
-var = False
+#Type Conversion and Casting
 
-print(not var)
+a=10
+b=5
 
-print((5>3)and(8<3))
-print((5>3)or(8<3))
+print(type(a/5))
+ans = print(int(a/5))
+print(type(ans))
 
-x=3
+val = int("123")
+print(type(val))
 
-x+=5
-print(x)
+val = bool(10)
+print(val,type(val)) #True
+
+val = bool(0)
+print(val,type(val)) #False
