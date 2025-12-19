@@ -1,11 +1,13 @@
-# Nesting
-username = input("Enter a name ")
-password = input("Enter a password ")
+# Match Case in Python
 
-if (username == "Shivansh" and password == "Tandon"):
-    print("Logged Inn!!")
-else:
-    if(username != "Shivansh"):
-        print("Wrong username")
-    else:
-        print("Wrong password")
+color = input("Enter color : ")
+
+match color:
+    case "green":
+        print("Go")
+    case "yellow":
+        print("Look")
+    case "red":
+        print("Stop")
+    case _:    #Default case
+        print("Wrong color")
