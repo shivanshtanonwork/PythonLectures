@@ -1,28 +1,26 @@
-# Loops with While
-## while loop
+# break and continue
 
-count = 1 #iterator
-while count <= 5:
-    print("Hello Python")
-    count+=1
-
-
-#count 1 to 5
-# i = 1
-# while i <= 10:
-#     print(i)
-#     i+=1
-
-# reverse count 
-i = 5
-while i >= 1:
+i = 1
+while (i<=10):
+    if(i%6==0):
+        break
     print(i)
-    i-=1
-
-# multiplication table of any no. n
-n = int(input("Enter any number "))
+    i+=1 
+        
+print()
 
 x = 1
-while x <= 10:
-    print(n * x)
+while(x<=10):
+    if(x%3==0):
+        x+=1
+        continue
+    print(x)
     x+=1
+
+# Print all odd nums 1 to 10
+n = 0
+while(n<10):
+    n+=1
+    if(n%2==0):
+        continue
+    print(n)
