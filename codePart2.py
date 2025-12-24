@@ -1,10 +1,7 @@
-# range() function
+# sum of 'n' natural numbers
 
-for i in range(5):
-    print(i)
-
-for j in range(1,6):
-    print(j)
-    
-for k in range(1,10,2):
-    print(k)
+n = int(input("Enter any natural number : "))
+sum = 0
+for i in range(1,n+1):
+    sum+=i
+print(sum)
