@@ -1,7 +1,10 @@
-# vowel count a,e,i,o,u
-word = "artificial intelligence"
-count = 0
-for ch in word:
-    if(ch == 'a' or ch == 'e' or ch == 'i' or ch == "o" or ch == 'u'):
-        count+=1
-print('total vowel count = ',count)
+# range() function
+
+for i in range(5):
+    print(i)
+
+for j in range(1,6):
+    print(j)
+    
+for k in range(1,10,2):
+    print(k)
