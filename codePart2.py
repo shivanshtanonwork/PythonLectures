@@ -1,20 +1,7 @@
-# For loops
-
-string = "Hello"
-
-if 'o' in string:
-    print("Yes o exists in string")
-
-for var in string:
-    print(var)
-
-for i in range(5):
-    print(i+1)
-
+# vowel count a,e,i,o,u
 word = "artificial intelligence"
-#count the number of i's 
 count = 0
 for ch in word:
-    if(ch == "i"):
+    if(ch == 'a' or ch == 'e' or ch == 'i' or ch == "o" or ch == 'u'):
         count+=1
-print("count of i = ",count)
+print('total vowel count = ',count)
