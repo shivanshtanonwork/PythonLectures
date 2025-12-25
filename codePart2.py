@@ -1,7 +1,10 @@
-# Lambda Function
+# WAF to print factorial of 'n
 
-sum = lambda a,b: a + b
-print(sum(4,5))
+def cal_factorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact * i
+    return fact
 
-avg = lambda x,y : (x + y)/2
-print(avg(4,5))
+n = int(input("Enter n : "))
+print(cal_factorial(5))
